@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "Name": "Alice Johnson",
+        "title": "Product Manager",
+        "description": "Alice oversees product development, ensuring the team meets deadlines and delivers quality."
+    },
+    {
+        "id": 2,
+        "Name": "Bob Smith",
+        "title": "Lead Developer",
+        "description": "Bob leads the development team and specializes in backend architecture."
+    },
+    {
+        "id": 3,
+        "Name": "Carol Williams",
+        "title": "UX Designer",
+        "description": "Carol designs user experiences to make applications intuitive and accessible."
+    },
+    {
+        "id": 4,
+        "Name": "David Brown",
+        "title": "Marketing Specialist",
+        "description": "David creates and implements marketing strategies to drive brand growth."
+    },
+    {
+        "id": 4,
+        "Name": "Lionel Messi",
+        "title": "Strategy Specialist",
+        "description": "David creates and implements marketing strategies to drive brand growth."
+    },
+    {
+        "id": 4,
+        "Name": "Cristiano Ronaldo",
+        "title": "Scorrer",
+        "description": "David creates and implements marketing strategies to drive brand growth."
+    }
+]
