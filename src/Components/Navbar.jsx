@@ -30,14 +30,18 @@ const Navbar = () => {
                 <NavLink to="/">Home</NavLink>
               </li>
               <li>
+                <NavLink to="/Shop">Shop</NavLink>
+              </li>
+              <li>
                 <NavLink to="/About">About</NavLink>
               </li>
               <li>
-                <NavLink to="/Blogs">Blogs</NavLink>
+                <NavLink to="/Blogs">Contact</NavLink>
               </li>
             </ul>
           </div>
-          <li className="btn btn-ghost text-3xl text-primary font-bold"><NavLink to="/Login">LifeBalance</NavLink></li>
+          <img src="/src/assets/favicon.png" alt="" />
+          <div className="text-black text-[34px] font-bold font-['Montserrat']"><NavLink to="/Login">Furniro</NavLink></div>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
@@ -45,15 +49,29 @@ const Navbar = () => {
               <NavLink to="/">Home</NavLink>
             </li>
             <li>
+                <NavLink to="/Shop">Shop</NavLink>
+              </li>
+            <li>
               <NavLink to="/About">About</NavLink>
             </li>
             <li>
-              <NavLink to="/Blogs">Blogs</NavLink>
+              <NavLink to="/Blogs">Contact</NavLink>
             </li>
           </ul>
         </div>
-        <div className="navbar-end">
-          <li className="btn btn-primary"><NavLink to="/Login">Log in</NavLink></li>
+        <div className="navbar-end ">
+        <div className="w-7 h-7 relative mx-8">
+          <img src="/src/assets/nav-icon.svg" alt="" />
+        </div>
+        <div className="w-7 h-7 relative mx-8">
+          <img src="/src/assets/search.svg" alt="" />
+        </div>
+        <div className="w-7 h-7 relative mx-8">
+          <img src="/src/assets/nav-icon3.svg" alt="" />
+        </div>
+        <div className="w-7 h-7 relative mx-8">
+          <img src="/src/assets/nav-icon4.svg" alt="" />
+        </div>
         </div>
       </div>
     </div>

@@ -2,104 +2,56 @@
 
 const Footer = () => {
   return (
-    <footer className="bg-black dark:bg-white">
+    <>
+    <footer className="bg-white dark:bg-gray-900">
       <div className="container p-6 mx-auto">
+      <hr className="h-px my-6 bg-gray-200 border-none dark:bg-gray-700" />
         <div className="lg:flex">
           <div className="w-full -mx-6 lg:w-2/5">
             <div className="px-6">
-              <a href="#">
-                <img className="w-auto h-7" src="https://merakiui.com/images/full-logo.svg" alt="Logo" />
-              </a>
-              <p className="max-w-sm mt-2 text-gray-500 dark:text-gray-400">
-                Join 31,000+ other and never miss out on new tips, tutorials, and more.
-              </p>
-              <div className="flex mt-6 -mx-2">
-                <a
-                  href="#"
-                  className="mx-2 text-gray-600 transition-colors duration-300 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-400"
-                  aria-label="Reddit"
-                >
-                  <svg className="w-5 h-5 fill-current" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="..." />
-                  </svg>
-                </a>
-                <a
-                  href="#"
-                  className="mx-2 text-gray-600 transition-colors duration-300 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-400"
-                  aria-label="Facebook"
-                >
-                  <svg className="w-5 h-5 fill-current" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="..." />
-                  </svg>
-                </a>
-                <a
-                  href="#"
-                  className="mx-2 text-gray-600 transition-colors duration-300 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-400"
-                  aria-label="Github"
-                >
-                  <svg className="w-5 h-5 fill-current" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="..." />
-                  </svg>
-                </a>
-              </div>
+            <div className="text-black text-2xl font-bold font-['Poppins'] mb-[50px]">Funiro.</div>
+            <div className="w-[285px] text-[#9f9f9f] text-base font-normal font-['Poppins']">400 University Drive Suite 200 Coral Gables,
+            <br/>FL 33134 USA</div>
+              
             </div>
           </div>
           <div className="mt-6 lg:mt-0 lg:flex-1">
             <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
               <div>
-                <h3 className="text-gray-700 uppercase dark:text-white">About</h3>
-                <a href="#" className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">
-                  Company
-                </a>
-                <a href="#" className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">
-                  Community
-                </a>
-                <a href="#" className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">
-                  Careers
-                </a>
+              <div className="text-[#9f9f9f] text-base font-medium font-['Poppins'] mb-[50px]">Links</div>
+              <div className="text-black text-base font-medium font-['Poppins'] mb-[46px]">Home</div>
+              <div className="text-black text-base font-medium font-['Poppins'] mb-[46px]">Shop</div>
+              <div className="text-black text-base font-medium font-['Poppins'] mb-[46px]">About</div>
+              <div className="text-black text-base font-medium font-['Poppins'] mb-[46px]">Contact</div>
+                
               </div>
               <div>
-                <h3 className="text-gray-700 uppercase dark:text-white">Blog</h3>
-                <a href="#" className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">
-                  Tech
-                </a>
-                <a href="#" className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">
-                  Music
-                </a>
-                <a href="#" className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">
-                  Videos
-                </a>
+              <div className="text-[#9f9f9f] text-base font-medium font-['Poppins'] mb-[50px]">Help</div>
+              <div className="text-black text-base font-medium font-['Poppins'] mb-[46px]">Payment Options</div>
+              <div className="text-black text-base font-medium font-['Poppins'] mb-[46px]">Returns</div>
+              <div className="text-black text-base font-medium font-['Poppins'] mb-[46px]">Privacy Policies</div>
+              
               </div>
               <div>
-                <h3 className="text-gray-700 uppercase dark:text-white">Products</h3>
-                <a href="#" className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">
-                  Mega Cloud
-                </a>
-                <a href="#" className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">
-                  Aperion UI
-                </a>
-                <a href="#" className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">
-                  Meraki UI
-                </a>
+              <div className="text-[#9f9f9f] text-base font-medium font-['Poppins'] mb-[50px]">Newsletter</div>
+              <div className="flex">
+              <input type="text" placeholder="Enter Your Email Address" className="underline"/>
+              <a className="text-black text-sm font-medium font-['Poppins'] underline ml-9" href="">SUBSCRIBE</a>
+              
               </div>
-              <div>
-                <h3 className="text-gray-700 uppercase dark:text-white">Contact</h3>
-                <span className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">
-                  +1 526 654 8965
-                </span>
-                <span className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">
-                  example@email.com
-                </span>
               </div>
+              
             </div>
           </div>
         </div>
-        
+        <hr className="h-px my-6 bg-gray-200 border-none dark:bg-gray-700" />
         <div>
-          <p className="text-center text-gray-500 dark:text-gray-400">© Brand 2020 - All rights reserved</p>
+        <div className="text-black text-base font-normal font-['Poppins']">2023 furino. All rights reverved</div>
         </div>
       </div>
     </footer>
+  </>
+  
   );
 };
 

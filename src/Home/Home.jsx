@@ -1,4 +1,3 @@
-import { NavLink } from "react-router-dom";
 import { useState, useEffect } from "react";
 
 const Home = () => {
@@ -16,57 +15,62 @@ const Home = () => {
 
   return (
     <div>
-      <header className="bg-white dark:bg-gray-900">
-        <div className="container px-6 py-16 mx-auto">
-          <div className="items-center lg:flex">
-            <div className="w-full lg:w-1/2">
-              <div className="lg:max-w-lg">
-                <h1 className="text-3xl font-semibold text-gray-800 dark:text-white lg:text-4xl">
-                  Subscribe To The{" "}
-                  <span className="text-blue-500">LifeBalance</span>
-                </h1>
-
-                <p className="mt-3 text-gray-600 dark:text-gray-400">
-                  be the first to knows when our{" "}
-                  <span className="font-medium text-blue-500">Brand</span> is
-                  live
-                </p>
-
-                <div className="flex flex-col mt-6 space-y-3 lg:space-y-0 lg:flex-row">
-                  <input
-                    id="email"
-                    type="text"
-                    className="px-4 py-2 text-gray-700 bg-white border rounded-md dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 dark:focus:border-blue-300 focus:outline-none focus:ring focus:ring-opacity-40 focus:ring-blue-300"
-                    placeholder="Email Address"
-                  />
-
-                  <li className="btn btn-primary ml-1">
-                    <NavLink to="/Login">Subscribe</NavLink>
-                  </li>
-                </div>
-              </div>
+      <div
+        className="hero h-auto w-full"
+        style={{
+          backgroundImage: "url(/src/assets/hero1.jpeg)",
+        }}
+      >
+        <img className="lg:hidden" src="/src/assets/hero1.jpeg" alt="" />
+        <div className="lg:hidden hero-content text-neutral-content  bg-[#fff2e3]">
+          <div className="max-w-md pt-[62px] pl-10 pb-10]">
+            <div className="text-[#333333] text-base font-semibold font-['Poppins'] tracking-[3px] ">
+              New Arrival
             </div>
-
-            <div className="flex items-center justify-center w-full mt-6 lg:mt-0 lg:w-1/2">
-              <img
-                className="w-full h-full max-w-md"
-                src="https://merakiui.com/images/components/Email-campaign-bro.svg"
-                alt="email illustration vector art"
-              />
+            <div className=" text-[#b88e2f] text-[52px] font-bold font-['Poppins'] leading-[65px]">
+              Discover Our New Collection
+            </div>
+            <div className=" text-[#333333] text-lg font-medium font-['Poppins'] leading-normal mb-10 ">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
+              tellus, luctus nec ullamcorper mattis.
+            </div>
+            <div className="h-[74px] px-[72px] py-[25px] bg-[#b88e2f] border-2 justify-start items-start gap-2.5 inline-flex">
+              <div className="text-white text-base font-bold font-['Poppins'] uppercase pb-10">
+                BUY Now
+              </div>
             </div>
           </div>
         </div>
-      </header>
+        <div className="hero-content text-neutral-content  bg-[#fff2e3] ml-[800px] mt-[260px] mb-[180px] hidden md:hidden lg:block">
+          <div className="max-w-md pt-[62px] pl-10 pb-10]">
+            <div className="text-[#333333] text-base font-semibold font-['Poppins'] tracking-[3px] ">
+              New Arrival
+            </div>
+            <div className=" text-[#b88e2f] text-[52px] font-bold font-['Poppins'] leading-[65px]">
+              Discover Our New Collection
+            </div>
+            <div className=" text-[#333333] text-lg font-medium font-['Poppins'] leading-normal mb-10 ">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
+              tellus, luctus nec ullamcorper mattis.
+            </div>
+            <div className="h-[74px] px-[72px] py-[25px] bg-[#b88e2f] border-2 justify-start items-start gap-2.5 inline-flex">
+              <div className="text-white text-base font-bold font-['Poppins'] uppercase pb-10">
+                BUY Now
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
       <h1 className="text-center text-2xl sm:text-3xl font-bold text-blue-800 dark:text-white mt-6">
-  *Our specialists in different fields*
-</h1>
-<p className="container mx-auto px-4 w-full sm:w-[800px] text-center text-gray-600 dark:text-gray-400">
-  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus
-  facilis nisi nostrum praesentium vel, odio totam molestiae qui sint
-  suscipit architecto veniam consectetur? Iure dolore recusandae ut error.
-  Tempora, nostrum?
-</p>
+        *Our specialists in different fields*
+      </h1>
+      <p className="container mx-auto px-4 w-full sm:w-[800px] text-center text-gray-600 dark:text-gray-400">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus
+        facilis nisi nostrum praesentium vel, odio totam molestiae qui sint
+        suscipit architecto veniam consectetur? Iure dolore recusandae ut error.
+        Tempora, nostrum?
+      </p>
 
       <div className="flex flex-wrap container mx-auto flex items-center justify-center">
         {heroData.map((hero) => (
