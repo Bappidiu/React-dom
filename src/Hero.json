@@ -1,38 +1,467 @@
 [
     {
-        "id": 1,
-        "Name": "Alice Johnson",
-        "title": "Product Manager",
-        "description": "Alice oversees product development, ensuring the team meets deadlines and delivers quality."
+      "id": "1",
+      "title": "Modern Sofa Set",
+      "price": 850.00,
+      "old_price": 1000.00,
+      "discount_percent": 15,
+      "description": "A contemporary sofa set perfect for any living room, with soft fabric and a stylish design.",
+      "dimensions": "90x35x40 inches",
+      "color": ["Gray", "Blue"],
+      "serial_no": "SS-001",
+      "category": "Living Room",
+      "tags": ["Sofa", "Living Room", "Furniture", "Comfort"],
+      "share": {
+        "facebook": "https://www.facebook.com/share/modern-sofa-set",
+        "twitter": "https://www.twitter.com/share/modern-sofa-set"
+      },
+      "review": {
+        "rating": 4.6,
+        "comments": [
+          {
+            "user": "Laura G.",
+            "comment": "Super comfortable and fits perfectly in my space.",
+            "rating": 4.5
+          }
+        ]
+      },
+      "additional_information": "Assembly required. Spot clean with damp cloth.",
+      "image": "/src/assets/image 1.png"
     },
     {
-        "id": 2,
-        "Name": "Bob Smith",
-        "title": "Lead Developer",
-        "description": "Bob leads the development team and specializes in backend architecture."
+      "id": "2",
+      "title": "King Size Bed Frame",
+      "price": 1200.00,
+      "old_price": 1500.00,
+      "discount_percent": 20,
+      "description": "A solid wood bed frame with a modern headboard design, perfect for any bedroom.",
+      "dimensions": "80x60x40 inches",
+      "color": ["Walnut", "Oak"],
+      "serial_no": "BF-002",
+      "category": "Bedroom",
+      "tags": ["Bed", "Bedroom", "Furniture", "Wood"],
+      "share": {
+        "facebook": "https://www.facebook.com/share/king-size-bed-frame",
+        "twitter": "https://www.twitter.com/share/king-size-bed-frame"
+      },
+      "review": {
+        "rating": 4.8,
+        "comments": [
+          {
+            "user": "Chris P.",
+            "comment": "Sturdy and looks amazing!",
+            "rating": 5
+          }
+        ]
+      },
+      "additional_information": "Assembly required. Mattress not included.",
+      "image": "/src/assets/image 2.png"
     },
     {
-        "id": 3,
-        "Name": "Carol Williams",
-        "title": "UX Designer",
-        "description": "Carol designs user experiences to make applications intuitive and accessible."
+      "id": "3",
+      "title": "Dining Table Set",
+      "price": 750.00,
+      "old_price": 850.00,
+      "discount_percent": 12,
+      "description": "A dining table set with a minimalist design, including 4 chairs with comfortable cushions.",
+      "dimensions": "72x36x30 inches",
+      "color": ["Dark Brown", "Black"],
+      "serial_no": "DT-003",
+      "category": "Dining Room",
+      "tags": ["Dining Table", "Dining Room", "Furniture", "Minimalist"],
+      "share": {
+        "facebook": "https://www.facebook.com/share/dining-table-set",
+        "twitter": "https://www.twitter.com/share/dining-table-set"
+      },
+      "review": {
+        "rating": 4.7,
+        "comments": [
+          {
+            "user": "Ashley M.",
+            "comment": "Perfect size for my dining room.",
+            "rating": 4.5
+          }
+        ]
+      },
+      "additional_information": "Seats up to 4 people. Easy to assemble.",
+      "image": "/src/assets/image 3.png"
     },
     {
-        "id": 4,
-        "Name": "David Brown",
-        "title": "Marketing Specialist",
-        "description": "David creates and implements marketing strategies to drive brand growth."
+      "id": "4",
+      "title": "Office Desk",
+      "price": 300.00,
+      "old_price": 375.00,
+      "discount_percent": 20,
+      "description": "A spacious office desk with multiple drawers for storage.",
+      "dimensions": "60x30x30 inches",
+      "color": ["White", "Black"],
+      "serial_no": "OD-004",
+      "category": "Office",
+      "tags": ["Desk", "Office", "Furniture", "Storage"],
+      "share": {
+        "facebook": "https://www.facebook.com/share/office-desk",
+        "twitter": "https://www.twitter.com/share/office-desk"
+      },
+      "review": {
+        "rating": 4.4,
+        "comments": [
+          {
+            "user": "Jason K.",
+            "comment": "Good quality and spacious.",
+            "rating": 4.4
+          }
+        ]
+      },
+      "additional_information": "Assembly required. Weight capacity: 100 lbs.",
+      "image": "/src/assets/image 4.png"
     },
     {
-        "id": 4,
-        "Name": "Lionel Messi",
-        "title": "Strategy Specialist",
-        "description": "David creates and implements marketing strategies to drive brand growth."
+      "id": "5",
+      "title": "Kitchen Island",
+      "price": 600.00,
+      "old_price": 750.00,
+      "discount_percent": 20,
+      "description": "A versatile kitchen island with plenty of storage and a countertop for meal prep.",
+      "dimensions": "50x30x36 inches",
+      "color": ["White", "Espresso"],
+      "serial_no": "KI-005",
+      "category": "Kitchen",
+      "tags": ["Kitchen Island", "Kitchen", "Furniture", "Storage"],
+      "share": {
+        "facebook": "https://www.facebook.com/share/kitchen-island",
+        "twitter": "https://www.twitter.com/share/kitchen-island"
+      },
+      "review": {
+        "rating": 4.9,
+        "comments": [
+          {
+            "user": "Megan D.",
+            "comment": "Stylish and super functional!",
+            "rating": 5
+          }
+        ]
+      },
+      "additional_information": "Assembly required. Includes hooks for hanging utensils.",
+      "image": "/src/assets/image 6.png"
     },
     {
-        "id": 4,
-        "Name": "Cristiano Ronaldo",
-        "title": "Scorrer",
-        "description": "David creates and implements marketing strategies to drive brand growth."
+      "id": "6",
+      "title": "Bathroom Vanity",
+      "price": 400.00,
+      "old_price": 500.00,
+      "discount_percent": 20,
+      "description": "A stylish bathroom vanity with a marble countertop and ample storage.",
+      "dimensions": "36x22x34 inches",
+      "color": ["Gray", "White"],
+      "serial_no": "BV-006",
+      "category": "Bathroom",
+      "tags": ["Vanity", "Bathroom", "Furniture", "Storage"],
+      "share": {
+        "facebook": "https://www.facebook.com/share/bathroom-vanity",
+        "twitter": "https://www.twitter.com/share/bathroom-vanity"
+      },
+      "review": {
+        "rating": 4.7,
+        "comments": [
+          {
+            "user": "Olivia F.",
+            "comment": "Looks great and holds all my toiletries.",
+            "rating": 4.7
+          }
+        ]
+      },
+      "additional_information": "Pre-assembled. Faucet not included.",
+      "image": "/src/assets/image 7.png"
+    },
+    {
+      "id": "7",
+      "title": "Patio Lounge Chair",
+      "price": 200.00,
+      "old_price": 250.00,
+      "discount_percent": 20,
+      "description": "A comfortable patio lounge chair made with weather-resistant material.",
+      "dimensions": "25x30x35 inches",
+      "color": ["Brown", "Beige"],
+      "serial_no": "PL-007",
+      "category": "Outdoor",
+      "tags": ["Patio", "Outdoor", "Furniture", "Lounge"],
+      "share": {
+        "facebook": "https://www.facebook.com/share/patio-lounge-chair",
+        "twitter": "https://www.twitter.com/share/patio-lounge-chair"
+      },
+      "review": {
+        "rating": 4.8,
+        "comments": [
+          {
+            "user": "Sam R.",
+            "comment": "Perfect for summer lounging.",
+            "rating": 4.8
+          }
+        ]
+      },
+      "additional_information": "Weatherproof and easy to clean.",
+      "image": "/src/assets/image 8.png"
+    },
+    {
+      "id": "8",
+      "title": "Entryway Console Table",
+      "price": 150.00,
+      "old_price": 180.00,
+      "discount_percent": 17,
+      "description": "A slim console table for the entryway, great for holding keys and decorative items.",
+      "dimensions": "48x15x30 inches",
+      "color": ["Brown", "Black"],
+      "serial_no": "ET-008",
+      "category": "Entryway",
+      "tags": ["Console Table", "Entryway", "Furniture", "Decor"],
+      "share": {
+        "facebook": "https://www.facebook.com/share/entryway-console-table",
+        "twitter": "https://www.twitter.com/share/entryway-console-table"
+      },
+      "review": {
+        "rating": 4.6,
+        "comments": [
+          {
+            "user": "Tom H.",
+            "comment": "Perfect addition to my entryway!",
+            "rating": 4.6
+          }
+        ]
+      },
+      "additional_information": "Easy to assemble. Holds up to 50 lbs.",
+      "image": "/src/assets/image 1.png"
+    },
+    {
+      "id": "9",
+      "title": "Modern Sofa Set",
+      "price": 850.00,
+      "old_price": 1000.00,
+      "discount_percent": 15,
+      "description": "A contemporary sofa set perfect for any living room, with soft fabric and a stylish design.",
+      "dimensions": "90x35x40 inches",
+      "color": ["Gray", "Blue"],
+      "serial_no": "SS-001",
+      "category": "Living Room",
+      "tags": ["Sofa", "Living Room", "Furniture", "Comfort"],
+      "share": {
+        "facebook": "https://www.facebook.com/share/modern-sofa-set",
+        "twitter": "https://www.twitter.com/share/modern-sofa-set"
+      },
+      "review": {
+        "rating": 4.6,
+        "comments": [
+          {
+            "user": "Laura G.",
+            "comment": "Super comfortable and fits perfectly in my space.",
+            "rating": 4.5
+          }
+        ]
+      },
+      "additional_information": "Assembly required. Spot clean with damp cloth.",
+      "image": "/src/assets/image 1.png"
+    },
+    {
+      "id": "10",
+      "title": "King Size Bed Frame",
+      "price": 1200.00,
+      "old_price": 1500.00,
+      "discount_percent": 20,
+      "description": "A solid wood bed frame with a modern headboard design, perfect for any bedroom.",
+      "dimensions": "80x60x40 inches",
+      "color": ["Walnut", "Oak"],
+      "serial_no": "BF-002",
+      "category": "Bedroom",
+      "tags": ["Bed", "Bedroom", "Furniture", "Wood"],
+      "share": {
+        "facebook": "https://www.facebook.com/share/king-size-bed-frame",
+        "twitter": "https://www.twitter.com/share/king-size-bed-frame"
+      },
+      "review": {
+        "rating": 4.8,
+        "comments": [
+          {
+            "user": "Chris P.",
+            "comment": "Sturdy and looks amazing!",
+            "rating": 5
+          }
+        ]
+      },
+      "additional_information": "Assembly required. Mattress not included.",
+      "image": "/src/assets/image 2.png"
+    },
+    {
+      "id": "11",
+      "title": "Dining Table Set",
+      "price": 750.00,
+      "old_price": 850.00,
+      "discount_percent": 12,
+      "description": "A dining table set with a minimalist design, including 4 chairs with comfortable cushions.",
+      "dimensions": "72x36x30 inches",
+      "color": ["Dark Brown", "Black"],
+      "serial_no": "DT-003",
+      "category": "Dining Room",
+      "tags": ["Dining Table", "Dining Room", "Furniture", "Minimalist"],
+      "share": {
+        "facebook": "https://www.facebook.com/share/dining-table-set",
+        "twitter": "https://www.twitter.com/share/dining-table-set"
+      },
+      "review": {
+        "rating": 4.7,
+        "comments": [
+          {
+            "user": "Ashley M.",
+            "comment": "Perfect size for my dining room.",
+            "rating": 4.5
+          }
+        ]
+      },
+      "additional_information": "Seats up to 4 people. Easy to assemble.",
+      "image": "/src/assets/image 3.png"
+    },
+    {
+      "id": "12",
+      "title": "Office Desk",
+      "price": 300.00,
+      "old_price": 375.00,
+      "discount_percent": 20,
+      "description": "A spacious office desk with multiple drawers for storage.",
+      "dimensions": "60x30x30 inches",
+      "color": ["White", "Black"],
+      "serial_no": "OD-004",
+      "category": "Office",
+      "tags": ["Desk", "Office", "Furniture", "Storage"],
+      "share": {
+        "facebook": "https://www.facebook.com/share/office-desk",
+        "twitter": "https://www.twitter.com/share/office-desk"
+      },
+      "review": {
+        "rating": 4.4,
+        "comments": [
+          {
+            "user": "Jason K.",
+            "comment": "Good quality and spacious.",
+            "rating": 4.4
+          }
+        ]
+      },
+      "additional_information": "Assembly required. Weight capacity: 100 lbs.",
+      "image": "/src/assets/image 4.png"
+    },
+    {
+      "id": "13",
+      "title": "Kitchen Island",
+      "price": 600.00,
+      "old_price": 750.00,
+      "discount_percent": 20,
+      "description": "A versatile kitchen island with plenty of storage and a countertop for meal prep.",
+      "dimensions": "50x30x36 inches",
+      "color": ["White", "Espresso"],
+      "serial_no": "KI-005",
+      "category": "Kitchen",
+      "tags": ["Kitchen Island", "Kitchen", "Furniture", "Storage"],
+      "share": {
+        "facebook": "https://www.facebook.com/share/kitchen-island",
+        "twitter": "https://www.twitter.com/share/kitchen-island"
+      },
+      "review": {
+        "rating": 4.9,
+        "comments": [
+          {
+            "user": "Megan D.",
+            "comment": "Stylish and super functional!",
+            "rating": 5
+          }
+        ]
+      },
+      "additional_information": "Assembly required. Includes hooks for hanging utensils.",
+      "image": "/src/assets/image 6.png"
+    },
+    {
+      "id": "14",
+      "title": "Bathroom Vanity",
+      "price": 400.00,
+      "old_price": 500.00,
+      "discount_percent": 20,
+      "description": "A stylish bathroom vanity with a marble countertop and ample storage.",
+      "dimensions": "36x22x34 inches",
+      "color": ["Gray", "White"],
+      "serial_no": "BV-006",
+      "category": "Bathroom",
+      "tags": ["Vanity", "Bathroom", "Furniture", "Storage"],
+      "share": {
+        "facebook": "https://www.facebook.com/share/bathroom-vanity",
+        "twitter": "https://www.twitter.com/share/bathroom-vanity"
+      },
+      "review": {
+        "rating": 4.7,
+        "comments": [
+          {
+            "user": "Olivia F.",
+            "comment": "Looks great and holds all my toiletries.",
+            "rating": 4.7
+          }
+        ]
+      },
+      "additional_information": "Pre-assembled. Faucet not included.",
+      "image": "/src/assets/image 7.png"
+    },
+    {
+      "id": "15",
+      "title": "Patio Lounge Chair",
+      "price": 200.00,
+      "old_price": 250.00,
+      "discount_percent": 20,
+      "description": "A comfortable patio lounge chair made with weather-resistant material.",
+      "dimensions": "25x30x35 inches",
+      "color": ["Brown", "Beige"],
+      "serial_no": "PL-007",
+      "category": "Outdoor",
+      "tags": ["Patio", "Outdoor", "Furniture", "Lounge"],
+      "share": {
+        "facebook": "https://www.facebook.com/share/patio-lounge-chair",
+        "twitter": "https://www.twitter.com/share/patio-lounge-chair"
+      },
+      "review": {
+        "rating": 4.8,
+        "comments": [
+          {
+            "user": "Sam R.",
+            "comment": "Perfect for summer lounging.",
+            "rating": 4.8
+          }
+        ]
+      },
+      "additional_information": "Weatherproof and easy to clean.",
+      "image": "/src/assets/image 8.png"
+    },
+    {
+      "id": "16",
+      "title": "Entryway Console Table",
+      "price": 150.00,
+      "old_price": 180.00,
+      "discount_percent": 17,
+      "description": "A slim console table for the entryway, great for holding keys and decorative items.",
+      "dimensions": "48x15x30 inches",
+      "color": ["Brown", "Black"],
+      "serial_no": "ET-008",
+      "category": "Entryway",
+      "tags": ["Console Table", "Entryway", "Furniture", "Decor"],
+      "share": {
+        "facebook": "https://www.facebook.com/share/entryway-console-table",
+        "twitter": "https://www.twitter.com/share/entryway-console-table"
+      },
+      "review": {
+        "rating": 4.6,
+        "comments": [
+          {
+            "user": "Tom H.",
+            "comment": "Perfect addition to my entryway!",
+            "rating": 4.6
+          }
+        ]
+      },
+      "additional_information": "Easy to assemble. Holds up to 50 lbs.",
+      "image": "/src/assets/image 1.png"
     }
-]
+  ]
+  
