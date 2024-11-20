@@ -36,7 +36,7 @@ const Footer = () => {
               <div className="text-[#9f9f9f] text-base font-medium font-['Poppins'] mb-[50px]">Newsletter</div>
               <div className="flex">
               <input type="text" placeholder="Enter Your Email Address" className="underline"/>
-              <a className="text-black text-sm font-medium font-['Poppins'] underline ml-9" href="">SUBSCRIBE</a>
+              <a className="hidden lg:block text-black text-sm font-medium font-['Poppins'] underline ml-9" href="">SUBSCRIBE</a>
               
               </div>
               </div>
