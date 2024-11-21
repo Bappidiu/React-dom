@@ -44,7 +44,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <hr className="h-px my-6 bg-gray-200 border-none dark:bg-gray-700" />
+        <hr className=" h-px my-6 bg-gray-200 border-none dark:bg-gray-700" />
         <div>
         <div className="text-black text-base font-normal font-['Poppins']">2023 furino. All rights reverved</div>
         </div>

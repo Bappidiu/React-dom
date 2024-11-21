@@ -178,7 +178,7 @@ const Home = () => {
         ))}
       </div>
 
-      <div className="w-full flex items-center justify-center">
+      <div className="w-full flex items-center justify-center mt-10">
         <div className="btn w-[245px] h-12 bg-white border border-[#b88e2f] flex items-center justify-center">
           <div className=" text-[#b88e2f] text-base font-semibold font-['Poppins'] leading-normal">
             Show More
@@ -256,6 +256,9 @@ const Home = () => {
           </div>
         </div>
       </section>
+    
+
+
     </div>
   );
 };
